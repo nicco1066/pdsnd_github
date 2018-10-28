@@ -114,7 +114,7 @@ def city_analysis(city,city_to_analyse):
 
 
 #welcome message
-print('Welcome to Motivate data analysis tool.')
+print('\n\nWelcome to Motivate data analysis tool.\n\n')
 run_program=True
 
 #While keep the program open until choosen differently
@@ -150,5 +150,7 @@ while run_program==True:
             month=int(input('Type the corresponding number here:'))
             city_analysis_total_month_filter(city_aggregate,month)
 
-    elif first_operation==3:
+    if first_operation==3:
         run_program=False
+    else:
+        print('Action not recognized, please input one of number suggested')
