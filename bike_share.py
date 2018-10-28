@@ -114,7 +114,7 @@ def city_analysis(city,city_to_analyse):
 
 
 #welcome message
-print('Welcome to Motivate data analysis tool.')
+print('\n\nWelcome to Motivate data analysis tool.\n\n')
 run_program=True
 
 #While keep the program open until choosen differently
